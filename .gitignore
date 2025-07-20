@@ -1,0 +1,60 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# HTML/CSS/JS build artifacts
+dist/
+build/
+*.min.js
+*.min.css
+*.map
+
+# System files
+Thumbs.db
+
+# Python
+*.pyo
+*.pyd
+.Python
+*.sqlite3
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/__pycache__/
+*/migrations/*.sqlite3
+*/migrations/*.log
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
