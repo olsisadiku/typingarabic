@@ -1,60 +1,29 @@
-# Django
-*.log
-*.pot
-*.pyc
-__pycache__/
-db.sqlite3
-db.sqlite3-journal
-media/
-staticfiles/
-.env
-.env.*
-
-# VSCode
+# Editor files
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# macOS
+# OS files
 .DS_Store
-
-# Node
-node_modules/
-
-# HTML/CSS/JS build artifacts
-dist/
-build/
-*.min.js
-*.min.css
-*.map
-
-# System files
 Thumbs.db
 
-# Python
-*.pyo
-*.pyd
-.Python
-*.sqlite3
+# Logs
+*.log
 
-# pip
-pip-log.txt
-pip-delete-this-directory.txt
+# Temporary files
+*.tmp
+*.temp
 
-# Coverage reports
-htmlcov/
-.coverage
-.tox/
-.nox/
-.cache/
-.pytest_cache/
+# Node modules (if using any build tools)
+node_modules/
 
-# Django migrations
-*/migrations/*.pyc
-*/migrations/*.pyo
-*/migrations/__pycache__/
-*/migrations/*.sqlite3
-*/migrations/*.log
+# Build outputs
+dist/
+build/
 
-# IDEs
-.idea/
-*.sublime-workspace
-*.sublime-project
+# Environment files
+.env
+.env.local
+.env.production

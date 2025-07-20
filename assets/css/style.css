@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(circle, rgba(9, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 75%) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #020024;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 2rem;
+    background: rgba(0,0,0,0.5);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+#word-container {
+    margin-bottom: 2rem;
+}
+
+#highlight-container {
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+#input-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#input-field {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    min-width: 300px;
+    direction: rtl;
+}
+
+#input-field:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+#submit-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    background: linear-gradient(145deg, #4caf50, #45a049);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#submit-button:hover {
+    background: linear-gradient(145deg, #45a049, #3d8b40);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.correct-letter {
+    color: #00ff00;
+}
+
+.incorrect-letter {
+    color: #ff3333;
+} 
